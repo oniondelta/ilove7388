@@ -1,7 +1,8 @@
 # 周曉涵 ( ilove7388 ) Instagram WebMosaic
 
 ### WebMosaic 網頁：
-- 待更新
+- https://oniondelta.github.io/ilove7388_webmosaic/
+(尚未完成)
 
 ### 說明：
 

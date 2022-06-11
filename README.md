@@ -27,7 +27,7 @@
 
 1. Python 套件 instaloader 下載「 周曉涵 ( ilove7388 ) Instagram 」。
 
-> * 從最初 2012-xx-xx ~ 2022-06-10，共 xxxx 張。
+> * 從最初 2010-11-24 ~ 2022-06-10，共 8443 張。
 
 2. AndreaMosaic 產生鑲嵌 Mosaic 網頁。
 

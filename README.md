@@ -2,17 +2,17 @@
 
 ### WebMosaic 網頁：
 - https://oniondelta.github.io/ilove7388_webmosaic/
-(尚未完成，跨網域圖片顯示問題尚未解決)
 
 ### 說明：
 
 - 電腦「右鍵」/ 手機「長按」：顯示彈出框 ～ 。
 
-> * 彈出框內容：〔大圖〕、〔日期〕、〔ShortCode〕、〔鑲嵌次數〕
+> * 彈出框內容：〔大圖連結〕、〔Instagram 貼文〕、〔日期〕、〔鑲嵌次數〕
 
 > * 點彈出框〔大圖〕：圖檔 jpg。
+> (index2.html 為原設定，但跨網域圖片顯示問題未解決，無法顯示圖片，故改〔大圖連結〕)
 
-> * 點彈出框〔ShortCode〕：連結 Instagram 該圖 PO 帖。
+> * 點彈出框〔Instagram 貼文〕：連結該圖 PO 帖。
 
 - 左側 🔍 搜尋：〔日期〕（格式：2022-05-20）或〔ShortCode〕搜尋 PO 圖，以 ⭕️ 標示。
 

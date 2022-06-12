@@ -2,7 +2,7 @@
 
 ### WebMosaic 網頁：
 - https://oniondelta.github.io/ilove7388_webmosaic/
-(尚未完成)
+(尚未完成，跨網域圖片顯示問題尚未解決)
 
 ### 說明：
 

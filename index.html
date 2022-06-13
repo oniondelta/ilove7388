@@ -9674,7 +9674,7 @@
         var getPopUpFullText = function (x,y,callback) {
             var tile = getTileObject(x,y);
             popUpText = tile === null ? "No information available" :
-                        (tile.imageUrl == null? '' : '<a href="' + 'https://onion.42web.io/tiles/' + tile.imageUrl + '" target="TileImage"><img src="' + 'https://onion.42web.io/tiles/' + tile.imageUrl + '" width=300 /></a><br>')
+                        (tile.imageUrl == null? '' : '<a href="' + 'https://onion.42web.io/tiles/' + tile.imageUrl + '" target="TileImage"><img src="' + 'https://onion.42web.io/tiles/' + tile.imageUrl + '" width=300 alt="JPG 大圖" /></a><br>')
                         + 'Tile Nr.: ' + tile.tileNr + '<br>'
                         + 'Tile Size: ' + tile.tileWidth + ' x ' + tile.tileHeight + '<br>'
                         + 'Tile Position: ' + tile.tileLeft + ' x ' + tile.tileTop + '<br>'
@@ -9688,15 +9688,15 @@
         // PopUp showing only the image
         var getPopUpImageOnly = function (x,y,callback) {
             var tile = getTileObject(x,y);
-            popUpText = tile === null || tile.imageUrl === null ? "No information available" : '<a href="https://onion.42web.io/tiles/' + tile.imageUrl + '" target="TileImage"><img src="https://onion.42web.io/tiles/' + tile.imageUrl + '" width=300 /></a><br>';
+            popUpText = tile === null || tile.imageUrl === null ? "No information available" : '<a href="https://onion.42web.io/tiles/' + tile.imageUrl + '" target="TileImage"><img src="https://onion.42web.io/tiles/' + tile.imageUrl + '" width=300 alt="JPG 大圖" /></a><br>';
             showPopUpWindow(popUpText,callback);
         };
 
         // PopUp showing the image with name and usage count
         var getPopUpImageWithName = function (x,y,callback) {
             var tile = getTileObject(x,y);
-            popUpText = tile === null || tile.imageUrl === null ? "No information available" : '<a href="https://onion.42web.io/tiles/' + tile.imageUrl + '" target="TileImage"><img src="https://onion.42web.io/tiles/' + tile.imageUrl + '" width=300 /></a><br>'
-                + '<center><a href="https://www.instagram.com/p/' + tile.instagramPost + '/" target="_blank">Instagram 貼文</a><br>'
+            popUpText = tile === null || tile.imageUrl === null ? "No information available" : '<center><a href="https://onion.42web.io/tiles/' + tile.imageUrl + '" target="TileImage"><img src="https://onion.42web.io/tiles/' + tile.imageUrl + '" width=300 alt="JPG 大圖" /></a><br>'
+                + '<a href="https://www.instagram.com/p/' + tile.instagramPost + '/" target="_blank">Instagram 貼文</a><br>'
                 + tile.imageName
                 + '<br> (used ' + tile.imageUsageCount + ' times) </center>';
             showPopUpWindow(popUpText,callback);
@@ -9751,7 +9751,7 @@
 
         // Map Options
         var mapOptions = {
-            getPopUpText: getPopUpTextOnly_2, // function that retrieves the HTML text to show for a tile. Can be null to avoid popup.
+            getPopUpText: getPopUpImageWithName, // function that retrieves the HTML text to show for a tile. Can be null to avoid popup.
             getHelpText: getHelpText, // function that retrieves the HTML text to show as PopUp for a help. (can be null to hide the ? button)
             attribution: '<a href="ilove7388_webmosaic_20220610.jpg" title="The Entire Picture JPG" target="_blank">JPG</a> | <a href="https://www.instagram.com/ilove7388/" title="Image Source" target="_blank">周曉涵 ᴬᴹᴬᴺᴰᴬ ᶜᴴᴼᵁ ( ilove7388 ) Instagram</a> | 2010-11-24~2022-06-10 ', // set my own attribution text, as html text. Can be null to have no additional attribution.
             keepPopUpInView: true, // if true the map will autopan so that the popup window is awlays shown.

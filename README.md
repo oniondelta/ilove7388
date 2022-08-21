@@ -37,7 +37,7 @@
 
 2. AndreaMosaic 產生鑲嵌 Mosaic 網頁。
 
-> * 設定 Mosaic 圖片 80×120 共 9600 張，抓圖之 8637 張皆在內，至多重複 2 次。
+> * 設定 Mosaic 圖片 80×120 共 9600 張，抓圖之 8627 張皆在內，至多重複 2 次。
 
 3. 修改 index.html，連結 Instagram PO 帖。
 

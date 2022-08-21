@@ -5,7 +5,7 @@
 
 - https://oniondelta.github.io/ilove7388_webmosaic/2.html
 
-> * 圖整體容量太大無法放 GitHub。原放免費網頁空間並引入，被瀏覽器視為第三方跨網域，彈出框中不顯示。
+> * 原圖容量太大無法放 GitHub。原放免費網頁空間並引入，被瀏覽器視為第三方跨網域，彈出框中不顯示。
 
 > * 故縮小〔JPG 大圖〕至可放入 GitHub。
 

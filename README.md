@@ -3,7 +3,7 @@
 ### WebMosaic 網頁：
 - https://oniondelta.github.io/ilove7388_webmosaic/
 
-- https://oniondelta.github.io/ilove7388_webmosaic/1.html
+- https://oniondelta.github.io/ilove7388_webmosaic/2.html
 
   (1.html「JPG 大圖」尚未上傳，連結無效)
 

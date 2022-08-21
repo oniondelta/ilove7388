@@ -3,6 +3,10 @@
 ### WebMosaic 網頁：
 - https://oniondelta.github.io/ilove7388_webmosaic/
 
+- https://oniondelta.github.io/ilove7388_webmosaic/1.html
+
+(1.html「JPG 大圖」尚未上傳，連結無效)
+
 ### 說明：
 
 - 電腦「右鍵」/ 手機「長按」：顯示彈出框 ～ 。

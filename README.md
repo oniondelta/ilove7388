@@ -39,7 +39,7 @@
 
 > * 設定 Mosaic 圖片 80×120 共 9600 張，抓圖之 8627 張皆在內，至多重複 2 次。
 
-3. 修改 index.html，連結 Instagram PO 帖。
+3. 修改 html，連結 Instagram PO 帖。
 
 > * 尚修改 html 和 js 一些小細節。
 

@@ -5,9 +5,9 @@
 
 - https://oniondelta.github.io/ilove7388_webmosaic/2.html
 
-> * 原圖容量太大無法放 GitHub。原放免費網頁空間並引入，被瀏覽器視第三方跨網域，彈出框中不顯示。
+  > 原圖容量太大無法放 GitHub。原放免費網頁空間並引入，被瀏覽器視第三方跨網域，彈出框中不顯示。
 
-> * 故縮小〔JPG 大圖〕至可放入 GitHub。
+  > 故縮小〔JPG 大圖〕至可放入 GitHub。
 
 ### 說明：
 
@@ -15,11 +15,11 @@
 
 - Safari 右鍵長按並稍微滑動 / iPhone 長按並稍微滑動：顯示彈出框 ～ 。
 
-> * 彈出框內容：〔JPG 大圖〕、〔Instagram 貼文〕、〔日期〕、〔鑲嵌次數〕
+  > 彈出框內容：〔JPG 大圖〕、〔Instagram 貼文〕、〔日期〕、〔鑲嵌次數〕
 
-> * 點彈出框〔JPG 大圖〕：圖檔 jpg。
+  > 點彈出框〔JPG 大圖〕：圖檔 jpg。
 
-> * 點彈出框〔Instagram 貼文〕：連結該圖 PO 帖。
+  > 點彈出框〔Instagram 貼文〕：連結該圖 PO 帖。
 
 - 左側 🔍 搜尋：〔日期〕（格式：2022-05-20）或〔ShortCode〕搜尋 PO 圖，以 ⭕️ 標示。
 
@@ -33,17 +33,17 @@
 
 ### 製作：
 
-1. Python 套件 instaloader 下載「 周曉涵 ( ilove7388 ) Instagram 」。
+- Python 套件 instaloader 下載「 周曉涵 ( ilove7388 ) Instagram 」。
 
-> * 從最初 2010-11-24 ~ 2022-08-26，共 8656 張。
+  > 從最初 2010-11-24 ~ 2022-08-26，共 8656 張。
 
-2. AndreaMosaic 產生鑲嵌 Mosaic 網頁。
+- AndreaMosaic 產生鑲嵌 Mosaic 網頁。
 
-> * 設定 Mosaic 圖片 80×120 共 9600 張，抓圖之 8656 張皆在內，至多重複 2 次。
+  > 設定 Mosaic 圖片 80×120 共 9600 張，抓圖之 8656 張皆在內，至多重複 2 次。
 
-3. 修改 html，連結 Instagram PO 帖。
+- 修改 html，連結 Instagram PO 帖。
 
-> * 尚修改 html 和 js 一些小細節。
+  > 尚修改 html 和 js 一些小細節。
 
 ### 備註：
 
